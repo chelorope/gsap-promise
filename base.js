@@ -6,6 +6,9 @@ module.exports = function(Tweens, Promise) {
       cancellation: true
     });
 
+  console.log('tweens', Tweens);
+  console.log(Promise);
+
   function animateFunc(func, element, duration, opts) {
     opts = assign({}, opts);
     var tween;
