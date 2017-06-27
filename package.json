@@ -10,7 +10,6 @@
     "url": "https://github.com/mattdesl"
   },
   "dependencies": {
-    "gsap": "1.18.2",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {
