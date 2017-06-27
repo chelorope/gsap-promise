@@ -1,9 +1,10 @@
 var assign = require('object-assign');
 
 module.exports = function(Tweens, Promise) {
-  Promise.config({
-    cancellation: true
-  });
+  Promise.config &&
+    Promise.config({
+      cancellation: true
+    });
 
   function animateFunc(func, element, duration, opts) {
     opts = assign({}, opts);
